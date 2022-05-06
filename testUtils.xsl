@@ -5,7 +5,6 @@
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:str="http://exslt.org/strings"
   exclude-result-prefixes="marc str">
-  <xsl:include href="MARC21Languages.xsl"/>
 	<xsl:template name="datafield">
 		<xsl:param name="tag"/>
 		<xsl:param name="ind1"><xsl:text> </xsl:text></xsl:param>
