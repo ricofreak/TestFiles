@@ -9,7 +9,7 @@
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:str="http://exslt.org/strings"
   exclude-result-prefixes="marc str">
-    <xsl:import href="https://raw.githubusercontent.com/ricofreak/TestFiles/master/testUtils.xsl?raw=true"/>
+    <xsl:import href="https://raw.githack.com/ricofreak/TestFiles/master/testUtils.xsl"/>
     <xsl:output method = "html" indent="yes" omit-xml-declaration = "yes" encoding="UTF-8"/>
     <xsl:template match="/">
             <xsl:apply-templates/>
